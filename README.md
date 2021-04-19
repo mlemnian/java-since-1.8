@@ -123,14 +123,14 @@ Local Variable Syntax for Lambda Parameters ([JEP 323](https://openjdk.java.net/
 * Sealed Classes Preview ([JEP 397](https://openjdk.java.net/jeps/397))
 
 ### API
-* Unix-Domain Socket Channels ([JEP 380](https://openjdk.java.net/jeps/))
+* Unix-Domain Socket Channels ([JEP 380](https://openjdk.java.net/jeps/380))
 
 ### Tools
-* Packaging Tool ([JEP 392](https://openjdk.java.net/jeps/))
+* Packaging Tool ([JEP 392](https://openjdk.java.net/jeps/392))
 
 ### Internal
-* Enable C++14 Language Features ([JEP 347](https://openjdk.java.net/jeps/))
-* Migrate to Git/GitHub ([JEP 357, JEP 369](https://openjdk.java.net/jeps/))
+* Enable C++14 Language Features ([JEP 347](https://openjdk.java.net/jeps/347))
+* Migrate to Git/GitHub ([JEP 357](https://openjdk.java.net/jeps/357), [JEP 369](https://openjdk.java.net/jeps/369))
 ## related links
 * https://foojay.io/
 * https://adoptopenjdk.net/ -> https://adoptium.net/
