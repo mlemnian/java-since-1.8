@@ -3,8 +3,14 @@ This repository shows the language features since Java 8
 
 ## Java 9
 ### Language
-* Module System ([JEP 261](https://openjdk.java.net/jeps/261))
-* Private Methods in Interfaces ([JEP 213](https://openjdk.java.net/jeps/213))
+* Module System ([JEP 261](https://openjdk.java.net/jeps/261)) (see https://www.baeldung.com/java-9-modularity)
+* Milling Project Coin ([JEP 213](https://openjdk.java.net/jeps/213))
+** Private Methods in Interfaces // allows sturcturing the code of default implementations
+** annotate private methods with @SafeVarargs
+** int _ = 10; // Compile error
+** better try-with-resources
+** Diamond operator for anonymous inner classes
+
 ### API
 * Reactive Streams ([JEP 266](https://openjdk.java.net/jeps/266))
 * Indify String Concatenation ([JEP 280](https://openjdk.java.net/jeps/280))
@@ -29,7 +35,7 @@ jlink ([JEP 282](https://openjdk.java.net/jeps/282))
 ### Tools
 * javah Removed ([JEP 313](https://openjdk.java.net/jeps/313))
 
-## Java 11
+## Java 11 (LTS)
 ### JVM
 * CONSTANT_Dynamic ([JEP 309](https://openjdk.java.net/jeps/309))
 * Epsilon GC ([JEP 318](https://openjdk.java.net/jeps/318))
@@ -81,11 +87,14 @@ Local Variable Syntax for Lambda Parameters ([JEP 323](https://openjdk.java.net/
 * ZGC on macOS ([JEP 364](https://openjdk.java.net/jeps/364))
 * ZGC on Windows ([JEP 365](https://openjdk.java.net/jeps/365))
 * Deprecate the ParallelScavenge + SerialOld GC Combination ([JEP 366](https://openjdk.java.net/jeps/366))
+### Language
+* Switch Expressions ([JEP 361](https://openjdk.java.net/jeps/361))
+* Records Preview ([JEP 359](https://openjdk.java.net/jeps/359))
+* Text Blocks Preview ([JEP 368](https://openjdk.java.net/jeps/368))
+* Pattern Matching for instanceof Preview ([JEP 305](https://openjdk.java.net/jeps/305))
 ### API
 * Non-Volatile Mapped Byte Buffers ([JEP 367](https://openjdk.java.net/jeps/367))
 * Remove the Pack200 APIs ([JEP 367](https://openjdk.java.net/jeps/367))
-### Language
-* Pattern Matching for instanceof Preview ([JEP 305](https://openjdk.java.net/jeps/305))
 ### Tools
 * Remove the Pack200 Tools ([JEP 367](https://openjdk.java.net/jeps/367))
 * Packaging Tool (Incubator) ([JEP 343](https://openjdk.java.net/jeps/343))
@@ -100,6 +109,7 @@ Local Variable Syntax for Lambda Parameters ([JEP 323](https://openjdk.java.net/
 * Pattern Matching for instanceof Preview ([JEP 375](https://openjdk.java.net/jeps/375))
 * Text Blocks ([JEP 378](https://openjdk.java.net/jeps/378))
 * Records Preview ([JEP 384](https://openjdk.java.net/jeps/384))
+
 ### API
 * Edwards-Curve Digital Signature Algorithm (EdDSA) ([JEP 339](https://openjdk.java.net/jeps/339))
 * Sealed Classes Preview ([JEP 360](https://openjdk.java.net/jeps/360))
@@ -131,7 +141,11 @@ Local Variable Syntax for Lambda Parameters ([JEP 323](https://openjdk.java.net/
 ### Internal
 * Enable C++14 Language Features ([JEP 347](https://openjdk.java.net/jeps/347))
 * Migrate to Git/GitHub ([JEP 357](https://openjdk.java.net/jeps/357), [JEP 369](https://openjdk.java.net/jeps/369))
+
+## Java 17 (LTS)
+Release 09.2021
 ## related links
 * https://foojay.io/
 * https://adoptopenjdk.net/ -> https://adoptium.net/
 * https://sdkman.io/
+
