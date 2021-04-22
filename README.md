@@ -144,6 +144,11 @@ Local Variable Syntax for Lambda Parameters ([JEP 323](https://openjdk.java.net/
 
 ## Java 17 (LTS)
 Release 09.2021
+* Enhanced Pseudo-Random Number Generators 2021/02/04 ([JEP 356](https://openjdk.java.net/jeps/356))
+* New macOS Rendering Pipeline 2021/03/04 ([JEP 382](https://openjdk.java.net/jeps/382))
+* macOS/AArch64 Port 2021/03/23 ([JEP 391](https://openjdk.java.net/jeps/391)) 
+* Deprecate the Applet API for Removal 2021/03/23 ([JEP 398](https://openjdk.java.net/jeps/398)) 
+
 ## related links
 * https://foojay.io/
 * https://adoptopenjdk.net/ -> https://adoptium.net/
