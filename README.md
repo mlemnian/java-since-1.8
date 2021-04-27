@@ -18,8 +18,8 @@ This repository shows the language features since Java 8
 * Object.finalize() deprecated ([JDKIssue 8165641](https://bugs.openjdk.java.net/browse/JDK-8165641))
 * Enhanced Deprecation ([JEP 277](https://openjdk.java.net/jeps/277))
 ### Tools
-jshell ([JEP 222](https://openjdk.java.net/jeps/222))
-jlink ([JEP 282](https://openjdk.java.net/jeps/282))
+* jshell ([JEP 222](https://openjdk.java.net/jeps/222))
+* jlink ([JEP 282](https://openjdk.java.net/jeps/282))
 
 ## Java 10
 ### JVM
