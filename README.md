@@ -14,7 +14,7 @@ This repository shows the language features since Java 8
 ### API
 * Reactive Streams ([JEP 266](https://openjdk.java.net/jeps/266))
 * Indify String Concatenation ([JEP 280](https://openjdk.java.net/jeps/280))
-* Var Handles ([JEP 193](https://openjdk.java.net/jeps/193))
+* Variable Handles ([JEP 193](https://openjdk.java.net/jeps/193)) see [Project Valhala](https://wiki.openjdk.java.net/display/valhalla)
 * Object.finalize() deprecated ([JDKIssue 8165641](https://bugs.openjdk.java.net/browse/JDK-8165641))
 * Enhanced Deprecation ([JEP 277](https://openjdk.java.net/jeps/277))
 ### Tools
