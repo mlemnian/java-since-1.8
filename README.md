@@ -1,11 +1,21 @@
 # Java since 1.8
 This repository shows the language features since Java 8
 
+## Related links
+* https://foojay.io/
+* https://javaalmanac.io/
+* https://adoptopenjdk.net/ -> https://adoptium.net/
+* https://sdkman.io/
+
+## Disclaimer
+* We will not discuss preview features
+* We will not discuss incubator projects nor projects in general (Loom, Amber, Coin, ...)
+
 ## Java 9
 ### Language
 * Module System ([JEP 261](https://openjdk.java.net/jeps/261)) (see https://www.baeldung.com/java-9-modularity)
 * Milling Project Coin ([JEP 213](https://openjdk.java.net/jeps/213))
-  * Private Methods in Interfaces // allows sturcturing the code of default implementations
+  * Private Methods in Interfaces // allows structuring the code of default implementations
   * annotate private methods with @SafeVarargs
   * int _ = 10; // Compile error
   * better try-with-resources
@@ -147,9 +157,4 @@ Release 09.2021
 * Enhanced Pseudo-Random Number Generators 2021/02/04 ([JEP 356](https://openjdk.java.net/jeps/356))
 * New macOS Rendering Pipeline 2021/03/04 ([JEP 382](https://openjdk.java.net/jeps/382))
 * macOS/AArch64 Port 2021/03/23 ([JEP 391](https://openjdk.java.net/jeps/391)) 
-* Deprecate the Applet API for Removal 2021/03/23 ([JEP 398](https://openjdk.java.net/jeps/398)) 
-
-## related links
-* https://foojay.io/
-* https://adoptopenjdk.net/ -> https://adoptium.net/
-* https://sdkman.io/
+* Deprecate the Applet API for Removal 2021/03/23 ([JEP 398](https://openjdk.java.net/jeps/398))
